@@ -3,7 +3,7 @@ DMOZ URL Classifier
 
 DMOZ is the largest, most comprehensive human-edited directory of the Web. It was historically known as the Open Directory Project (ODP). It contains a categorized list of Web URLs. Their listings are updated on a monthly bases and published in [RDF files](http://rdf.dmoz.org/rdf/).
 
-In my [research project](http://tarekamr.appspot.com/msc/presentation), I work on classifying web-pages based on their URLs only, hence DMOZ dataset, is one of the datasets I used in my research. 
+In my [research project](http://tarekamr.appspot.com/msc/presentation), I work on classifying web-pages based on their URLs only, hence DMOZ dataset is one of the datasets I use in my research. 
 
 If you are going to download their RDF files, you can find to scripts here that are useful to you.
 

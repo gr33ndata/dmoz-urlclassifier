@@ -8,6 +8,6 @@ In my [research project](http://tarekamr.appspot.com/msc/presentation), I work o
 If you are going to download their RDF files, you can find to scripts here that are useful to you.
 
 * dmoz2csv.py: This scripts converts their RDF data into a CSV file. Each line of CSV file contains a uniqie ID, URL and the category of that URL as seen in DMOZ.
-* csv2traintest.py: Then this script can take the resulting CSV from above and convert it into training and test datasets as explained by [Bykan-2009](http://dl.acm.org/citation.cfm?id=1526880).
+* csv2traintest.py: Then this script can take the resulting CSV from above and convert it into training and test datasets as explained by [Bykan et al](http://dl.acm.org/citation.cfm?id=1526880).
 
 Feeding "csv2traintest.py" on "dmoz0409.csv" will result in producing 15 training and test file pairs.

@@ -1,3 +1,4 @@
+import sys
 from random import shuffle
 
 class RUS:
@@ -39,9 +40,16 @@ class RUS:
 
 
 if __name__ == '__main__':
-    rus = RUS('dmoz0409_Shopping_train_copy.csv')
-    print rus.fileout()
-    rus.load()
-    print 'Min:', rus.min_topic()
-    rus.display()
-    #rus.writeFile()
+
+    if len(sys.argv) == 2:
+        
+        filein_name = sys.argv[1]
+        rus = RUS('dmoz0409_Shopping_train_copy.csv')
+        rus.load()
+        #print 'Min:', rus.min_topic()
+        #rus.display()
+        rus.writeFile()
+
+    else:
+        print 'Usage: python csfrus.py [TRAINING_FILE.csv]'
+

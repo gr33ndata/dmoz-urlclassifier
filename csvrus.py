@@ -38,18 +38,30 @@ class RUS:
         fd.close()
 
 
-
-if __name__ == '__main__':
-
+def main():
     if len(sys.argv) == 2:
-        
         filein_name = sys.argv[1]
         rus = RUS('dmoz0409_Shopping_train_copy.csv')
         rus.load()
         #print 'Min:', rus.min_topic()
         #rus.display()
         rus.writeFile()
-
     else:
         print 'Usage: python csfrus.py [TRAINING_FILE.csv]'
+
+def main_dmoz():
+    from topics import topics
+    for topic in topics:
+        filename = 'dmoz0409_%s_train.csv' % topic
+        rus = RUS(filename)
+        rus.load()
+        print topic, rus.min_topic()
+        rus.writeFile()
+
+
+if __name__ == '__main__':
+
+    #main()
+    main_dmoz()
+    
 

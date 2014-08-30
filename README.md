@@ -17,5 +17,5 @@ Feeding "csv2traintest.py" on "dmoz0409.csv" will result in producing 15 trainin
 Contacts
 --------
  
-+ Name: `Tarek Amr <http://tarekamr.appspot.com/>`_
-+ Twitter: `@gr33ndata <https://twitter.com/gr33ndata>`_
++ Name: [Tarek Amr](http://tarekamr.appspot.com/)
++ Twitter: [@gr33ndata](https://twitter.com/gr33ndata)

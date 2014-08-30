@@ -12,3 +12,10 @@ If you are going to download their RDF files, you can find to scripts here that 
 * csv2traintest.py: Then this script can take the resulting CSV from above and convert it into training and test datasets as explained by [Bykan et al](http://dl.acm.org/citation.cfm?id=1526880).
 
 Feeding "csv2traintest.py" on "dmoz0409.csv" will result in producing 15 training and test file pairs.
+
+      
+Contacts
+--------
+ 
++ Name: `Tarek Amr <http://tarekamr.appspot.com/>`_
++ Twitter: `@gr33ndata <https://twitter.com/gr33ndata>`_
